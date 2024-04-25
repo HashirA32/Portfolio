@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #313131; 
+}
+
+body {
+    background-color: #343A40;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #CCCCCC;
+    padding: 2rem;
+    border-radius: 1rem;
+    color: #313131;
+    box-shadow:   3px 15px 20px #000000da,inset 0px 0px 20px #4d4848da;
+
+}
+
+.amount {
+    font-size: 0.9rem;
+    padding: 1rem;
+    
+}
+
+.amount input {
+    border-radius: 0.4rem;
+    border: 1px solid darkgray;
+    padding-left: 0.4rem;
+    padding: 0.3rem;
+    font-size: 1.3rem;
+
+}
+
+.dropDown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:2rem 0 2rem 0;
+    
+}
+
+
+.from , .to {
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+.from img,  .to  img{
+    
+    width: 2.5rem;
+    border-radius: 5rem;
+    filter : drop-shadow(2px 5px 2px #242323da);
+    
+}
+
+.selecter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.41rem;
+}
+
+.output {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    background-color: #2F404C;
+    border: 1px solid rgb(51, 49, 49);
+    color: #fff;
+    box-shadow:   inset 0px 0px 15px #141522da;
+}
+
+select {
+    font-size: 0.5rem;
+    font-weight: 600;
+    padding: 0.1rem;
+    border-radius: 0.3rem;
+    border: 1px solid darkgray;
+    
+
+}
+.container button {
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    border: 1px solid darkgray;
+    width: 50vh;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    background-color: #222436;
+    border: 1px solid rgb(141, 141, 143);
+    color: #fff;
+    box-shadow:   3px 5px 8px #21103dda;
+    cursor: pointer;
+}
