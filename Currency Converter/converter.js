@@ -48,6 +48,5 @@ btn.addEventListener("click", async (evt) => {
     let rate = data1.data[toValue];
 
     let fullFinalOutput = rate.value * takenAmount;
-    finalOutput.innerText = fullFinalOutput;
-
+    finalOutput.innerText = `${takenAmount} ${fromCrrency.value} = ${fullFinalOutput} ${toCurrency.value} `;
 });
